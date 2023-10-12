@@ -246,18 +246,18 @@ fetch(baseUrl, {
   .catch((error) => console.log(JSON.stringify(error)));
 
 const languages_icons = {
-  Python: "logos-python",
-  "Jupyter Notebook": "logos-jupyter",
-  HTML: "logos-html-5",
-  CSS: "logos-css-3",
-  JavaScript: "logos-javascript",
+  "C": "devicon:c",
   "C#": "logos-c-sharp",
-  Java: "logos-java",
-  Shell: "simple-icons:shell",
-  Ruby: "logos:ruby",
-  PHP: "logos-php",
+  "C++": "vscode-icons:file-type-cpp3",
+  CSS: "logos-css-3",
   Dockerfile: "simple-icons:docker",
+  Go: "logos:go",
+  HTML: "logos-html-5",
+  Java: "logos-java",
+  JavaScript: "logos-javascript",
+  Python: "logos-python",
   Rust: "logos-rust",
+  Shell: "logos:bash-icon",
 };
 
 fetch(baseUrl, {
@@ -276,6 +276,7 @@ fetch(baseUrl, {
       var langobjs = obj["languages"]["nodes"];
       var newLangobjs = [];
       for (var j = 0; j < langobjs.length; j++) {
+        console.log(langobjs[j]);
         if (langobjs[j]["name"] in languages_icons) {
           newLangobjs.push({
             name: langobjs[j]["name"],
