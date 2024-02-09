@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Hao-Jung's Portfolio",
+  title: "Nick's Portfolio",
   description:
     "A passionate computer science student who is experienced in Web Development and Cloud Computing Services and enjoys developing end-to-end solutions to make people's lives more convenient.",
   og: {
-    title: "Hao-Jung Chen Portfolio",
+    title: "Nick Chen Portfolio",
     type: "website",
     url: "https://github.com/haojungc",
   },
@@ -19,12 +19,12 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Hao-Jung (Nick) Chen",
+  title: "Nick Chen",
   logo_name: "Nick Chen",
   nickname: "haojungc",
   subTitle:
     "A passionate computer science student who is experienced in Web Development and Cloud Computing Services and enjoys developing end-to-end solutions to make people's lives more convenient.",
-  resumeLink: "https://haojungc.s3.amazonaws.com/Hao-Jung-Chen-resume.pdf",
+  resumeLink: "https://haojungc.s3.amazonaws.com/HaoJung-Chen-resume.pdf",
   portfolio_repository: "https://github.com/haojungc/masterPortfolio",
   githubProfile: "https://github.com/haojungc",
 };
