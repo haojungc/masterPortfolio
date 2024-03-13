@@ -19,12 +19,12 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Nick Chen",
+  title: "Hello, I'm Nick!",
   logo_name: "Nick Chen",
-  nickname: "haojungc",
+  //nickname: "haojungc",
   subTitle:
     "A passionate computer science student who is experienced in Web Development and Cloud Computing Services and enjoys developing end-to-end solutions to make people's lives more convenient.",
-  resumeLink: "https://haojungc.s3.amazonaws.com/HaoJung-Chen-resume.pdf",
+  resumeLink: "https://haojungc.s3.amazonaws.com/Nick-Chen-resume.pdf",
   portfolio_repository: "https://github.com/haojungc/masterPortfolio",
   githubProfile: "https://github.com/haojungc",
 };
@@ -59,7 +59,7 @@ const socialMediaLinks = [
   //},
   {
     name: "Gmail",
-    link: "mailto:haojungc@usc.edu",
+    link: "mailto:haojungc@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -134,11 +134,63 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using Angular",
-        "⚡ Creating application backend in node.js, Express & Flask",
-        "⚡ Developing android apps using Android Studio (Java)",
+        "⚡ Building responsive web applications frontend using React and Angular",
+        "⚡ Creating application backend with node.js, Express & Flask",
+        "⚡ Developing RESTful APIs and microservices with AWS Lambda and API Gateway",
       ],
       softwareSkills: [
+        {
+          skillName: "React",
+          fontAwesomeClassname: "logos:react",
+          style: {
+            color: "#61dafb",
+          },
+        },
+        {
+          skillName: "Angular",
+          fontAwesomeClassname: "vscode-icons:file-type-angular",
+          style: {},
+        },
+        {
+          skillName: "node.js",
+          fontAwesomeClassname: "logos:nodejs",
+          style: {},
+        },
+        {
+          skillName: "NGINX",
+          fontAwesomeClassname: "devicon:nginx",
+          style: {},
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "devicon:typescript",
+          style: {
+            color: "#007ACC",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos:mysql",
+          style: {},
+        },
+        {
+          skillName: "Amazon DynamoDB",
+          fontAwesomeClassname: "devicon:dynamodb",
+          style: {},
+        },
+        {
+          skillName: "InfluxDB",
+          fontAwesomeClassname: "devicon:influxdb-wordmark",
+          style: {},
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -153,35 +205,6 @@ const skills = {
             color: "#1572B6",
           },
         },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "Angular",
-          fontAwesomeClassname: "simple-icons:angular",
-          style: {
-            color: "#b52e31",
-          },
-        },
-        {
-          skillName: "node.js",
-          fontAwesomeClassname: "devicon:nodejs",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "npm",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
       ],
     },
     {
@@ -189,13 +212,13 @@ const skills = {
       //fileName: "CloudInfraImg",
       fileName: "",
       skills: [
+        "⚡ AWS Certified Cloud Practitioner",
         "⚡ Experience working on multiple cloud platforms such as AWS and GCP",
-        "⚡ Hosting and maintaining responsive websites on cloud along with integration of Google Maps and Yelp APIs",
         "⚡ Deploying microservices to cloud with Terraform and CI/CD pipeline",
       ],
       softwareSkills: [
         {
-          skillName: "AWS",
+          skillName: "Amazon Web Services",
           //fontAwesomeClassname: "skill-icons:aws-light",
           imageSrc: "aws_logo.svg",
           style: {
@@ -203,7 +226,7 @@ const skills = {
           },
         },
         {
-          skillName: "GCP",
+          skillName: "Google Cloud Platform",
           //fontAwesomeClassname: "skill-icons:gcp-light",
           imageSrc: "gcp_logo.svg",
           style: {
@@ -217,6 +240,11 @@ const skills = {
           style: {
             color: "#1488C6",
           },
+        },
+        {
+          skillName: "Terraform",
+          fontAwesomeClassname: "devicon:terraform",
+          style: {},
         },
         //{
         //skillName: "Kubernetes",
@@ -253,8 +281,8 @@ const degrees = {
       alt_name: "USC",
       duration: "Expected: May 2024",
       descriptions: [
-        "⚡ GPA: 3.82/4.0",
-        "⚡ I have studied subjects such as Algorithms, Computer Networks, Security Systems, etc.",
+        "⚡ GPA: 3.76/4.0",
+        "⚡ I have studied subjects such as Computer Networks, Security Systems, Machine Learning, etc.",
         "⚡ Apart from this, I have done projects about Web Development, Socket Programming, and Cloud Computing Services.",
       ],
       //website_link: "https://www.usc.edu/",
@@ -266,7 +294,7 @@ const degrees = {
       alt_name: "NCKU",
       duration: "2021",
       descriptions: [
-        "⚡ GPA: 4.03/4.3",
+        "⚡ GPA: 4.05/4.3",
         "⚡ I have taken varity of courses related to Data Structures, Algorithms, Operating Systems, etc.",
       ],
       //website_link: "https://web.ncku.edu.tw/index.php",
@@ -276,15 +304,15 @@ const degrees = {
 
 const certifications = {
   certifications: [
-    //{
-    //title: "Machine Learning",
-    //subtitle: "- Andrew Ng",
-    //logo_path: "stanford_logo.png",
-    //certificate_link:
-    //"https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-    //alt_name: "Stanford University",
-    //color_code: "#8C151599",
-    //},
+    {
+      title: "AWS Certified Cloud Practitioner",
+      //subtitle: "- Amazon Web Services Training and Certification",
+      logo_path: "aws-certified-cloud-practitioner-logo.png",
+      certificate_link:
+        "https://cp.certmetrics.com/amazon/en/public/verify/credential/MRB62032VN1411G5",
+      alt_name: "AWS Certified Cloud Practitioner",
+      color_code: "#232F3E",
+    },
   ],
 };
 
@@ -348,9 +376,9 @@ const experience = {
           duration: "July 2023 - August 2023",
           //location: "Taipei, Taiwan",
           description:
-            "⚡ Collaborated with 2 frontend and 2 backend engineers using Scrum to build generative AI-based news recommendation service\n" +
-            "⚡ Automated AWS infrastructure provisioning with Terraform, managing more than 100 resources (VPC, API Gateway, Lambda, ElastiCache); secured REST API with mutual TLS using Route 53 and AWS Certificate Manager to prevent unauthorized access\n" +
-            "⚡ Resolved unplanned infrastructure changes by adopting GitOps with Terraform and CI/CD pipeline to detect and fix AWS resource drift periodically and enable production engineers to review potential infrastructure changes during pull requests",
+            "⚡ Collaborated with 4 software engineers to develop a generative AI-based news recommendation service on AWS using Terraform and Agile (Scrum) methodologies\n" +
+            "⚡ Automated AWS infrastructure with Terraform, managing 100+ resources and improving deployment efficiency by 80%\n" +
+            "⚡ Integrated Amazon ElastiCache, resulting in 95% reduction in RESTful APIs response time; orchestrated serverless architecture using API Gateway and AWS Lambda",
           color: "#0879bf",
         },
         //{
@@ -534,7 +562,7 @@ const contactPageData = {
   },
   emailSection: {
     title: "Email",
-    subtitle: "haojungc@usc.edu",
+    subtitle: "haojungc@gmail.com",
   },
 };
 

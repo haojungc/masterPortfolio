@@ -2,6 +2,31 @@
   "closed": 0,
   "data": [
     {
+      "id": "PR_kwDOIJ1Eos5kg6Xe",
+      "title": "fix(footer): update copyright year automatically",
+      "url": "https://github.com/andyzhp234/Personal-website/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62565095?u=b060c6ea1f0bd4499d680528528a61736d15efb7&v=4",
+        "url": "https://github.com/andyzhp234",
+        "login": "andyzhp234"
+      },
+      "createdAt": "2024-01-19T08:29:42Z",
+      "number": 1,
+      "changedFiles": 1,
+      "additions": 2,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "Personal-website",
+        "url": "https://github.com/andyzhp234/Personal-website",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/62565095?u=b060c6ea1f0bd4499d680528528a61736d15efb7&v=4",
+          "login": "andyzhp234",
+          "url": "https://github.com/andyzhp234"
+        }
+      }
+    },
+    {
       "id": "PR_kwDOGpkjIs5R0BLZ",
       "title": "Fix: Wrong minute format",
       "url": "https://github.com/briankosw/leetcode-timer/pull/5",
@@ -194,106 +219,6 @@
       }
     },
     {
-      "id": "PR_kwDOIQPi285DhyD0",
-      "title": "Automate gnuplot for basic and efficient algorithms",
-      "url": "https://github.com/Miseratio/CSCI-570-Final-Project/pull/6",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/51209602?u=515cac6ec7fcb61d71cc1373b7b0877380597d81&v=4",
-        "url": "https://github.com/haojungc",
-        "login": "haojungc"
-      },
-      "createdAt": "2022-11-23T06:27:23Z",
-      "number": 6,
-      "changedFiles": 9,
-      "additions": 52,
-      "deletions": 4,
-      "baseRepository": {
-        "name": "CSCI-570-Final-Project",
-        "url": "https://github.com/Miseratio/CSCI-570-Final-Project",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/24605624?u=ae25250a4f5bf42ea0dc46b98bf4395344d57263&v=4",
-          "login": "Miseratio",
-          "url": "https://github.com/Miseratio"
-        }
-      }
-    },
-    {
-      "id": "PR_kwDOIQPi285Dge-j",
-      "title": "Output gnuplot data",
-      "url": "https://github.com/Miseratio/CSCI-570-Final-Project/pull/5",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/51209602?u=515cac6ec7fcb61d71cc1373b7b0877380597d81&v=4",
-        "url": "https://github.com/haojungc",
-        "login": "haojungc"
-      },
-      "createdAt": "2022-11-23T00:26:30Z",
-      "number": 5,
-      "changedFiles": 2,
-      "additions": 6,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "CSCI-570-Final-Project",
-        "url": "https://github.com/Miseratio/CSCI-570-Final-Project",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/24605624?u=ae25250a4f5bf42ea0dc46b98bf4395344d57263&v=4",
-          "login": "Miseratio",
-          "url": "https://github.com/Miseratio"
-        }
-      }
-    },
-    {
-      "id": "PR_kwDOIQPi285DgbPq",
-      "title": "Fix divide and conquer sequence alignment",
-      "url": "https://github.com/Miseratio/CSCI-570-Final-Project/pull/4",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/51209602?u=515cac6ec7fcb61d71cc1373b7b0877380597d81&v=4",
-        "url": "https://github.com/haojungc",
-        "login": "haojungc"
-      },
-      "createdAt": "2022-11-23T00:08:01Z",
-      "number": 4,
-      "changedFiles": 2,
-      "additions": 299,
-      "deletions": 12,
-      "baseRepository": {
-        "name": "CSCI-570-Final-Project",
-        "url": "https://github.com/Miseratio/CSCI-570-Final-Project",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/24605624?u=ae25250a4f5bf42ea0dc46b98bf4395344d57263&v=4",
-          "login": "Miseratio",
-          "url": "https://github.com/Miseratio"
-        }
-      }
-    },
-    {
-      "id": "PR_kwDOIQPi285C6IJk",
-      "title": "Prompt user when arguments are insufficient",
-      "url": "https://github.com/Miseratio/CSCI-570-Final-Project/pull/2",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/51209602?u=515cac6ec7fcb61d71cc1373b7b0877380597d81&v=4",
-        "url": "https://github.com/haojungc",
-        "login": "haojungc"
-      },
-      "createdAt": "2022-11-15T08:35:44Z",
-      "number": 2,
-      "changedFiles": 1,
-      "additions": 21,
-      "deletions": 4,
-      "baseRepository": {
-        "name": "CSCI-570-Final-Project",
-        "url": "https://github.com/Miseratio/CSCI-570-Final-Project",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/24605624?u=ae25250a4f5bf42ea0dc46b98bf4395344d57263&v=4",
-          "login": "Miseratio",
-          "url": "https://github.com/Miseratio"
-        }
-      }
-    },
-    {
       "id": "PR_kwDODzuz184tyHp1",
       "title": "Create LICENSE",
       "url": "https://github.com/haojungc/uGo-Compiler/pull/1",
@@ -311,31 +236,6 @@
       "baseRepository": {
         "name": "uGo-Compiler",
         "url": "https://github.com/haojungc/uGo-Compiler",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/51209602?u=515cac6ec7fcb61d71cc1373b7b0877380597d81&v=4",
-          "login": "haojungc",
-          "url": "https://github.com/haojungc"
-        }
-      }
-    },
-    {
-      "id": "PR_kwDODRzXu84tyGgO",
-      "title": "Create LICENSE",
-      "url": "https://github.com/haojungc/C-Projects/pull/1",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/51209602?u=515cac6ec7fcb61d71cc1373b7b0877380597d81&v=4",
-        "url": "https://github.com/haojungc",
-        "login": "haojungc"
-      },
-      "createdAt": "2021-10-28T08:31:29Z",
-      "number": 1,
-      "changedFiles": 1,
-      "additions": 29,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "C-Projects",
-        "url": "https://github.com/haojungc/C-Projects",
         "owner": {
           "avatarUrl": "https://avatars.githubusercontent.com/u/51209602?u=515cac6ec7fcb61d71cc1373b7b0877380597d81&v=4",
           "login": "haojungc",
@@ -411,31 +311,6 @@
       "baseRepository": {
         "name": "dsa",
         "url": "https://github.com/haojungc/dsa",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/51209602?u=515cac6ec7fcb61d71cc1373b7b0877380597d81&v=4",
-          "login": "haojungc",
-          "url": "https://github.com/haojungc"
-        }
-      }
-    },
-    {
-      "id": "PR_kwDOFeni3s4tyFko",
-      "title": "Create LICENSE",
-      "url": "https://github.com/haojungc/image-data-augmentation/pull/1",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/51209602?u=515cac6ec7fcb61d71cc1373b7b0877380597d81&v=4",
-        "url": "https://github.com/haojungc",
-        "login": "haojungc"
-      },
-      "createdAt": "2021-10-28T08:26:33Z",
-      "number": 1,
-      "changedFiles": 1,
-      "additions": 29,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "image-data-augmentation",
-        "url": "https://github.com/haojungc/image-data-augmentation",
         "owner": {
           "avatarUrl": "https://avatars.githubusercontent.com/u/51209602?u=515cac6ec7fcb61d71cc1373b7b0877380597d81&v=4",
           "login": "haojungc",
@@ -665,7 +540,7 @@
       }
     }
   ],
-  "merged": 24,
+  "merged": 19,
   "open": 3,
-  "totalCount": 27
+  "totalCount": 22
 }
